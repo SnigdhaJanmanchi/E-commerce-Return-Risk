@@ -204,7 +204,7 @@ The same July–September 2015 holdout, scored by the saved XGBoost model:
 
 The bands separate lower-return lines from higher-return lines, and the average predicted probability in each band is close to the observed return rate. That is evidence of useful ranking and reasonable segment-level agreement. It is not a claim of perfect calibration, and it was not measured as a drop in returns after a business intervention.
 
-## What the model relies on
+## Feature importance
 
 ![Top 15 features by XGBoost importance](assets/feature_importance.png)
 
@@ -264,7 +264,10 @@ python scripts/export_portfolio_assets.py
 
 Re-running the notebooks requires the DMC training file at `data/raw/orders_train.txt` and writes `data/processed/engineered_returns.csv`. Those files are intentionally not in the git repository.
 
-The clone URL is not fixed yet. Use the URL of your GitHub repository when you publish it.
+```powershell
+git clone https://github.com/SnigdhaJanmanchi/E-commerce-Return-Risk.git
+cd E-commerce-Return-Risk
+```
 
 ## Stack
 
