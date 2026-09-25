@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large local datasets. Directory placeholders stay tracked.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
